@@ -1,4 +1,4 @@
-
+use std::env;
 /**
 Simple HTTP directory scanner for the command line.
 
@@ -15,8 +15,10 @@ static OK_RESPONSE: u16 = 200;
 
 #[tokio::main]
 async fn main()  {
-    let url: &str = "https://www.jku.at";
-    let dictionary_path = "./test.txt";
+    // get parameters from commandline
+    let args: Vec<String> = env::args().collect();
+    let url = &args[1];
+    let dictionary_path = &args[2];
 
     // read all paths from file
     let mut dictionary: Vec<&str> = Vec::new();
