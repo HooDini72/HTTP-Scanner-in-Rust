@@ -6,8 +6,3 @@ Inputs:
 
 Output:
 - All discovered paths returning HTTP status 200
-
-Future
-- delay (request -> delay -> request -> delay -> ...)
-- port (change port)
-- threads (run with multiple threads)
