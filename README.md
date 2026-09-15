@@ -7,7 +7,7 @@ Inputs:
 Output:
 - All discovered paths returning HTTP status 200
 
-Dictionary example:
+Dictionary example: <br>
 / <br>
 /home <br>
 /dashboard <br>
