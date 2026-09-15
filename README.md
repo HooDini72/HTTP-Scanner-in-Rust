@@ -8,9 +8,9 @@ Output:
 - All discovered paths returning HTTP status 200
 
 Dictionary example:
-/
-/home
-/dashboard
+/ <br>
+/home <br>
+/dashboard <br>
 /api
 
 Execute: HTTP-Scanner.exe https://test.com test.txt
